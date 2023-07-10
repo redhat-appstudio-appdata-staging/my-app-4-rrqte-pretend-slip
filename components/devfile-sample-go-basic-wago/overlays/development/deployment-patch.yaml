@@ -12,7 +12,7 @@ spec:
       creationTimestamp: null
     spec:
       containers:
-      - image: quay.io/redhat-user-workloads-stage/mreid1-tenant/my-app-4/devfile-sample-go-basic-wago@sha256:67f17df31e26d3538e80701a4873400f83163252c6df4657a63e83efefd18ef1
+      - image: quay.io/redhat-user-workloads-stage/mreid1-tenant/my-app-4/devfile-sample-go-basic-wago@sha256:91aa4ba262678f0a01119a917e9f56dafa937d69d2994de3700f2c041711116d
         name: my-go
         resources: {}
 status: {}

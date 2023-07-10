@@ -1,0 +1,18 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  creationTimestamp: null
+  name: devfile-sample-go-basic-wago
+spec:
+  replicas: 1
+  selector: {}
+  strategy: {}
+  template:
+    metadata:
+      creationTimestamp: null
+    spec:
+      containers:
+      - image: quay.io/redhat-user-workloads-stage/mreid1-tenant/my-app-4/devfile-sample-go-basic-wago@sha256:462a33d8e2da8342e7b79532e4ed0ae3ec60264e25411ef1fb5c36ad137a8de5
+        name: my-go
+        resources: {}
+status: {}
